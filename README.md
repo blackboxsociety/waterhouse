@@ -17,5 +17,8 @@ Methods Supported
     + Rolling HMAC
     + Hash List
     + Merkle Trees (soon)
+
+  + Entropy
+    + Functionally pure randomness
  
  Much more to come.
