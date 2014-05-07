@@ -18,6 +18,9 @@ Methods Supported
     + Hash List
     + Merkle Trees (soon)
 
+  + Resolution
+    + Hash Ring / Consistent Hashing
+
   + Entropy
     + Functionally pure randomness
  

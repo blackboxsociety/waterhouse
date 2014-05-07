@@ -8,9 +8,11 @@ class Random {
   val seed = new SecureRandom()
 
   def next(size: Int): Task[(Array[Byte], Random)] = {
-    val bytes = new Array[Byte](size)
-    seed.nextBytes(bytes)
-    Task.now { (bytes, this) }
+    Task.now {
+      val bytes = new Array[Byte](size)
+      seed.nextBytes(bytes)
+      (bytes, this)
+    }
   }
 
 }
